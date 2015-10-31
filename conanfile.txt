@@ -1,0 +1,10 @@
+[requires]
+zmqcpp/4.1.1@memsharded/testing
+Protobuf/2.6.1@memsharded/testing
+
+[generators]
+cmake
+
+[imports]
+bin, protoc* -> ./
+bin, *.dll -> ./bin
